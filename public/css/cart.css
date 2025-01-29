@@ -1,0 +1,39 @@
+.card, .form-control, .form-control:focus{
+    background:  rgb(45, 45, 45);
+    color: white;
+    box-shadow: none;
+    
+  
+}
+
+.cart-box .form-control{
+    width: 50px;
+}
+.cart-box .form-control:focus{
+    width: 50px;
+    box-shadow: none;
+}
+
+@media (max-width:760px){
+    .cart-box img{
+        height: 79px;
+        width: 79px;
+        
+    }
+    .row > *{
+        width: fit-content;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+   
+}
+
+@media (max-width:590px){
+
+    .price{
+        display: none;
+    }
+}

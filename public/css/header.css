@@ -1,0 +1,100 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 30px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:#ff5e14; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ff5e14; 
+  }
+
+
+.navbar{
+    --bs-navbar-padding-y: 0;
+   
+}
+.navbar-toggler-icon{ background-image: url('../Images/hamburger.png');}
+.navbar-brand{
+    font-size: 1.8rem;
+        /* color: rgb(230, 11, 105); */
+        color: red;
+        
+}
+
+.navbar-brand:hover{
+    color: #ff5e14;
+}
+
+.nav-item a{
+    margin-left:15px; 
+    margin-right: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.nav-item a:hover, .webname:hover{
+    color: #ff5e14;
+    width: auto;
+    /* background-color:rgb(50, 47, 47) ; */
+}
+
+.dropdown-menu a:hover{
+    color: #ff5e14;
+    width: auto;
+    background-color:rgb(50, 47, 47) ;
+}
+.nav-item a::after, .webname::after{
+    content:"";
+    display: block;
+    height: 4px;
+    /* width: 100%; */
+    background-color: #ff5e14;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+
+}
+
+.me-2:focus{
+    box-shadow: 0 0 0 1.5px #ff5e14;
+}
+
+.nav-item a:hover:after, .webname:hover::after{
+    transform: scaleX(1);
+}
+
+.dropdown-menu{
+    background-color: rgb(50, 47, 47);
+}
+
+
+.error{
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+/* .dropdown-menu a:hover{
+    color: rgb(50, 47, 47);
+    color: #ff5e14;
+} */
+

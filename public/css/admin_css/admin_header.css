@@ -1,0 +1,85 @@
+#wrapper{
+    background: rgb(50, 50, 50);
+}
+
+#content{
+    background: rgb(41, 39, 39);
+}
+
+.card-body, .card{
+    /* background: rgb(50, 50, 50); */
+    background: rgb(41, 39, 39);
+
+
+}
+
+.review-profile{
+    border-radius: 30px;
+}
+
+.list-group-item{
+    background: none;
+    color: aliceblue;
+}
+
+.card-header{
+    background: rgb(50, 50, 50);
+}
+
+
+
+.table{
+    --bs-table-bg:none;
+    --bs-table-color:white;
+ }
+
+.register{
+    display: none;
+}
+.form-control, .form-control:focus{
+    background:  rgb(45, 45, 45);
+    color: white;
+    box-shadow: none;
+    
+
+}
+
+.error{
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.w-5{
+    display: none;
+}
+
+/* .page-link, .active  .page-link, .disabled{
+    background: none;
+    color: red;
+} */
+
+
+.page-link{
+    background: none ;
+    color: white;
+}
+
+.page-link:hover{
+    background:none ;
+    color: red;
+}
+.pagination, .active .page-link{
+    background:none;
+    color: red;
+    box-shadow: none;
+}
+
+.pagination .page-item {
+    background-color: none;
+}
+
+textarea{
+    background: none;
+    text-decoration: none;
+}

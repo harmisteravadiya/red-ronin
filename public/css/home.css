@@ -1,0 +1,90 @@
+.carousel-control-next-icon:after, .carousel-control-prev-icon:after {
+    content: none;
+}
+
+.slide{
+    height: inherit;
+    margin: 10px 50px 20px 50px;
+    
+}
+
+
+
+.carousel-item img{
+    height:450px;
+    border-radius: 8px;
+}
+
+
+@media (max-width:600px) {
+
+    .carousel-item img{
+    height:300px;
+}
+}
+
+.categories{
+    margin: 10px 50px 20px 70px;   
+}
+
+.categories .card{
+    max-width: 400px;
+    max-height: 300px;
+    background:  rgb(41, 39, 39);
+    /* color:rgb(245, 201, 201) ; */
+    color: white;
+}
+
+.py-4{
+    margin: 10px 50px 20px 50px;
+    /* color:rgb(245, 201, 201) ; */
+    color: white;
+    cursor: pointer;
+}
+.row{
+justify-content: space-evenly;
+}
+
+.feat{
+    
+    max-width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    /* padding-top:10px ; */
+
+}
+
+.card-title{
+    /* color:rgb(245, 201, 201) ; */
+    color: white;
+}
+.card{
+    overflow: hidden;
+}
+.categorie-item .img-fluid:hover{
+ transform: scale(1.5);
+    transition: 0.5s;
+   opacity: 0.7;
+}
+
+
+
+
+.topic .card{
+    max-height: inherit;
+    background:  rgb(41, 39, 39);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #ff5e14;
+    opacity: 0.8;
+}
